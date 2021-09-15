@@ -18,7 +18,7 @@ for(i;i<=10;x){
     x = x + 2;
     i++;
 }
-for(i:i<=10;i+=2){ //i = i + 2
+for(i;i<=10;i+=2){ //i = i + 2
     console.log(i)
 }
 */
