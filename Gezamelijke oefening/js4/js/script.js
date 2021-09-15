@@ -1,28 +1,43 @@
-//Meervoudige selectie
-
+//FOR
 /*
-var onderwijs = prompt("Geef onderwijs in");
-
-switch (onderwijs){
-    case "vdab":
-        console.log("cursus is gegeven door VDAB");
-        break;
-    case "syntra":
-        console.log("cursus is gegeven door Syntra");
-        break;
-    default:
-        console.log("gegeven door een andere instelliing");
+for (teller;conditie;wijzeiging( teller)){
+    code
 }*/
 
-//enkelvoudige selectie shorthand
+
 
 /*
-var x = 1;
-if(x == 1){
-    //code
-}else{
-    //code
+var i = 1;
+for(i;i<=10;i++){ /!* 1=1+1 of 1++ *!/
+    console.log(i);
 }
-
-x==1 ? // code : // code
+i = 1;
+var x = 0;
+for(i;i<=10;x){
+    console.log(x);
+    x = x + 2;
+    i++;
+}
+for(i:i<=10;i+=2){ //i = i + 2
+    console.log(i)
+}
 */
+
+/*
+var i = 10;
+for(i;i>=0;i--) { /!* 1=1-1 of 1-- *!/
+    console.log(i);
+}
+*/
+
+// While loop
+
+
+var text = "";
+var i = 0;
+while(i<101){
+    text = text + "<br>De nummers zijn " +i; // of text += "De nummers zijn" i+;
+    i++;
+}
+document.getElementById("demo").innerHTML = text;
+
