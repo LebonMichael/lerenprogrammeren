@@ -1,13 +1,17 @@
-var einde = "99";
-var resultaat = "";
-var i = 0
+let text = prompt("Geef tekst")
+let karakter = prompt("Geeft karakter")
+let i = 1
+let aantal = 0
+let o = 0
 
-for(i;i<=einde;i++){
+for(i;i<=text.length;i++){
 
-    if(i<10){
-        resultaat = resultaat + "0" + i + ",";
+    if(karakter===text.substring(o,i)){
+        aantal++
+        o++
     }else{
-        resultaat = resultaat + i + ","
+        o++
     }
 }
-console.log(resultaat.substr(0,resultaat.length-1));
+console.log(aantal);
+
