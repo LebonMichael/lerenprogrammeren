@@ -2,7 +2,6 @@
 var tafel = parseInt(prompt("Geef tafel"));
 var Einde = parseInt(prompt("Geef eind getal"));
 var i = 1;
-var som = 0;
 var resultaat = "";
 var x = 1;
 
