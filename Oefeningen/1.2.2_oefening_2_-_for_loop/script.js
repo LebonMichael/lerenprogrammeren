@@ -7,10 +7,4 @@ for(teller;teller<=aantal;teller++){
     sterren = sterren + "*";
     console.log(sterren)
     }
-teller = 1
-var minSterren = sterren.length
-for(teller;teller<=sterren.length;teller++){
-    minSterren-=1;
-    console.log(sterren.substr(0, minSterren));
 
-}
