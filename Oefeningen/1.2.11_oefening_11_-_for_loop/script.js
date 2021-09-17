@@ -1,9 +1,9 @@
-var getal1 = 0
-var getal2 = 1
-var som = 0
+var getal1 = 0;
+var getal2 = 1;
+var som = 0;
 var aantalGetallen = parseInt(prompt("Geef in hoeveel getallen"));
-var i = 1
-var resultaat = ""
+var i = 1;
+var resultaat = "";
 
 for(i;i<=aantalGetallen;i++){
     if(i%2 === 0){
