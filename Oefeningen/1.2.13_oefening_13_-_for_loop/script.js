@@ -1,3 +1,11 @@
+/*
+Schrijf een programma die het kleinste gemeen veelvoud van 2 getallen weergeeft.
+Vraag aan de gebruiker de 2 getallen  Voorbeeld:
+o Getallen 15 en 27
+o Weergave op het scherm:
+o Het kleinste gemene veelvoud van 15 en 27 is: 135
+*/
+
 var getal1 = parseInt(prompt("Geef eerste getal"));
 var getal2 = parseInt(prompt("Geef tweede getal"));
 var i = 1;

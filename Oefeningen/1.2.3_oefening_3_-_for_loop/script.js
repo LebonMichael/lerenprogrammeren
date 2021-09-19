@@ -1,3 +1,18 @@
+/*
+Schrijf een programma die het volgende op het scherm weergeeft:
+ De gebruiker geef een even aantal even lijnen in.
+*
+**
+***
+****
+*****
+*****
+****
+***
+**
+*
+*/
+
 var aantal
 var teller = 1
 var sterren = ""
