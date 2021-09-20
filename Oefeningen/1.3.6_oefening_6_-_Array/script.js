@@ -10,7 +10,7 @@ console.log(alfaKlein);
 
 for(x;x<=alfaKlein.length-1;x++){
     vervormer = alfaKlein[x]
-    vervormer = vervormer.codePointAt(x)
+    vervormer = vervormer.codePointAt()
     vervormer -= 32
     vervormer = String.fromCharCode(vervormer)
     alfaGroot.push(vervormer)
