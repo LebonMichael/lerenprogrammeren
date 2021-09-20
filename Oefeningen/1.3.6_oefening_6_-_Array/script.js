@@ -10,9 +10,10 @@ console.log(alfaKlein);
 
 for(x;x<=alfaKlein.length-1;x++){
     vervormer = alfaKlein[x]
-    vervormer = vervormer.toUpperCase()
+    vervormer = vervormer.codePointAt(x)
+    vervormer -= 32
+    vervormer = String.fromCharCode(vervormer)
     alfaGroot.push(vervormer)
-
 
 }console.log(alfaGroot)
 
