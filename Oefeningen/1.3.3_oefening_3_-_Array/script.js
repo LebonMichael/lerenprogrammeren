@@ -7,14 +7,14 @@ function randomGetal(max) {
 
 
 for(var i = 1;i<=10; i++){
-    array1.push(randomGetal(100))
-    array2.push(randomGetal(100))
-    var resultaat = array1[i-1] + array2[i-1]
-    array3.push(resultaat)
-    console.log(array1[i-1] + "+" + array2[i-1] + "=" + array3[i-1])
+    array1.push(randomGetal(100));
+    array2.push(randomGetal(100));
+    var resultaat = array1[i-1] + array2[i-1];
+    array3.push(resultaat);
+    console.log(array1[i-1] + "+" + array2[i-1] + "=" + array3[i-1]);
 
 }
-console.log(array1)
-console.log(array2)
-console.log(array3)
+console.log(array1);
+console.log(array2);
+console.log(array3);
 
