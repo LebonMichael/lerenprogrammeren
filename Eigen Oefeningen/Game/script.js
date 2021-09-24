@@ -30,7 +30,7 @@ for(areaTeller;areaTeller<=5;areaTeller++){
             var enemy_id = randomMonsterForrest(2)
             var enemy_Lvl_id = randomLvlForrest(5)
             var enemy = []
-            var enemy_attack = 0.15
+            var enemy_attack = 0.50
             enemy[0] = array_enemy[enemy_id]
             enemy[1] = enemy_Lvl_id
             enemy[2] = (enemy_attack * enemy_Lvl_id)
@@ -61,7 +61,8 @@ for(areaTeller;areaTeller<=5;areaTeller++){
                     break loop1;
 
                 }else if(enemy[3] <= 0){
-                    if(randomDrop(5)===1){
+                    var dropChance = randomDrop(5)
+                    if(dropChance === 1){
                         console.log("Nice job, you pwned him ^^")
                         console.log("Woot you got a potion")
                         array_character[5] = array_character[5] + potion
@@ -72,10 +73,11 @@ for(areaTeller;areaTeller<=5;areaTeller++){
                     }
                     console.log("Nice job, you pwned him ^^")
                     console.log("No drop =(")
-                    break loop3;
                     var wins = 0
                     wins ++
-                }if (array_character[6] === 20){
+                }
+                if (array_character[6] === 20){
+                    console.log("Gratz ur char is lvl up ^^")
                     level = array_character[3]
                     level++
                     array_character[3] = level
@@ -85,6 +87,7 @@ for(areaTeller;areaTeller<=5;areaTeller++){
                     health = array_character[6]
                     health +=15
                     array_character[6] = health
+                    console.log(array_character)
                 }
             }
             console.log(enemy)
